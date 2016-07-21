@@ -330,6 +330,7 @@ if(plotIndiv)
         xlim([0,16.5]);
         set(gca,'fontsize',15,'linewidth',2);
         if(idealFlag)
+            %KESH ALERT: This part is not working 7/21/2016
             subplot(1,2,2);  
             bar(rho_i);
             set(gca,'XTick',1:16,'ylim',[0 1]);
